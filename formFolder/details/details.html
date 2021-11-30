@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>details</title>
+  <link rel="stylesheet" href="details.css" />
+  <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="modalContainer">
+    <div class="modal">
+      <header class="modal__header">
+        <div class="heading">
+          <div>Add a reservation</div>
+
+          <div class="heading__btns">
+            <i class="fas fa-cog"></i>
+            <i class="far fa-copy"></i>
+            <button><i class="far fa-save"></i>&nbsp;Save</button>
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+
+        <div class="hero__btns">
+          <span>Room n</span>
+          <span>Lack of Payment</span>
+        </div>
+      </header>
+
+      <div class="modal__body">
+        <div class="nav__btns">
+          <div><i class="fas fa-book"></i>&ensp;<span>Booking</span></div>
+          <div><i class="fas fa-user-alt"></i>&ensp;<span>Client</span></div>
+          <div><i class="far fa-file-alt"></i>&ensp;<span>Details</span></div>
+          <div><i class="fas fa-file-alt"></i>&ensp;<span>Invoices</span></div>
+        </div>
+
+        <div class="bodymodal">
+          <strong class="sc-hEsumM text" style="font-size: 18px;">Others</strong>
+          <div class="sc-bxivhb lffwST" style="flex-grow: 1; width: 100%;">
+            <div class="sc-bxivhb lffwST" style="margin-top: 4.25px; width: 100%;">
+              
+              <div class="sc-bxivhb sc-tilXH jdenrG">
+                <div class="sc-bxivhb lffwST">
+                  <div class="sc-bxivhb sc-cMljjf egDFpl" style="max-width: 100%; width: 100%;"><label for="note"
+                      class="sc-cvbbAY eZIKiR">Notes</label>
+                    <div class="sc-bxivhb gLWEzJ">
+                      <div class="sc-bxivhb lffwST" style="height: auto;"><textarea name="note"
+                          class="sc-csuQGl sc-Rmtcm hyAqES" style="height:75px;overflow-y:hidden;"></textarea></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sc-bxivhb lffwST">
+                  <div class="sc-bxivhb sc-cMljjf egDFpl" style="max-width: 100%; width: 100%;"><label for="provenances"
+                      class="sc-cvbbAY eZIKiR">Booking origin</label>
+                    <div class="sc-bxivhb gLWEzJ">
+                      <div class="sc-bxivhb ccvFeF" style="position: relative;">
+                        <div class=" css-8atqhb">
+                          <div class=" css-wi0uvx-control">
+                            <div class=" css-bdvd70">
+                              <div class=" css-1wa3eu0-placeholder">Select</div>
+                              <div class="css-muqt0h">
+                                <div class="" style="display: inline-block;"><input autocapitalize="none"
+                                    autocomplete="off" autocorrect="off" id="react-select-155-input" spellcheck="false"
+                                    tabindex="0" type="text" aria-autocomplete="list" value=""
+                                    style="box-sizing: content-box; width: 2px; background: 0px center; border: 0px; font-size: inherit; opacity: 0; outline: 0px; padding: 0px; color: inherit;">
+                                  <div
+                                    style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 11.05px; font-family: Montserrat, sans-serif; font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none;">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class=" css-1wy0on6"><span class=" css-1hyfx7x"></span>
+                              <div aria-hidden="true" class=" css-13g24dj"><svg stroke="currentColor"
+                                  fill="currentColor" stroke-width="0" viewBox="0 0 24 24" size="20.4" height="20.4"
+                                  width="20.4" xmlns="http://www.w3.org/2000/svg">
+                                  <path d="M7 10l5 5 5-5z"></path>
+                                </svg></div>
+                            </div>
+                          </div><input name="provenances" type="hidden" value="">
+                        </div>
+                        <div class="sc-bxivhb exZuWt" style="cursor: pointer; position: absolute; right: 8.5px;"><svg
+                            stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round" size="13.6" height="13.6" width="13.6"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="12" cy="12" r="3"></circle>
+                            <path
+                              d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z">
+                            </path>
+                          </svg></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+               
+                <div class="sc-bxivhb lffwST">
+                  <div class="sc-bxivhb sc-cMljjf egDFpl" style="max-width: 100%; width: 100%;"><label for="feeding"
+                      class="sc-cvbbAY eZIKiR">Board</label>
+                    <div class="sc-bxivhb gLWEzJ">
+                      <div class=" css-2b097c-container">
+                        <div class=" css-wi0uvx-control">
+                          <div class=" css-bdvd70">
+                            <div class=" css-1uccc91-singleValue">
+                              <div class="sc-bxivhb iVSKTp" style="font-weight: 500;">
+                                <div>OV - no board</div>
+                              </div>
+                            </div><input id="react-select-325-input" readonly="" tabindex="0"
+                              class="css-62g3xt-dummyInput" value="" style="border: none;">
+                          </div>
+                          <div class=" css-1wy0on6"><span class=" css-1hyfx7x"></span>
+                            <div aria-hidden="true" class=" css-b4g0mn"><svg stroke="currentColor" fill="currentColor"
+                                stroke-width="0" viewBox="0 0 24 24" size="20.4" height="20.4" width="20.4"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 10l5 5 5-5z"></path>
+                              </svg></div>
+                          </div>
+                        </div><input name="feeding" type="hidden" value="OV">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="sc-bxivhb lffwST">
+                  <div class="sc-bxivhb sc-cMljjf egDFpl" style="max-width: 100%; width: 100%;"><label for="doorCode"
+                      class="sc-cvbbAY eZIKiR">Entrance code</label>
+                    <div class="sc-bxivhb gLWEzJ">
+                      <div class="sc-bxivhb eQsgCV" style="position: relative;"><input id="text-input" name="doorCode"
+                          type="text" class="sc-brqgnP fWAkok" value=""></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="bodymodal">
+          <strong class="sc-hEsumM text" style="font-size: 18px;">Number of Guests</strong>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

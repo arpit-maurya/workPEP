@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Design</title>
+  <link rel="stylesheet" href="addroommodal.css" />
+  <!-- <link rel="stylesheet" href="bootstrap.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="modalContainer">
+    <div class="modal">
+      <header class="modal__header">
+        <div class="heading">
+          <div>Add room</div>
+
+          <div class="heading__btns">
+
+            <button><i class="far fa-save"></i>&nbsp;Save</button>
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+      </header>
+
+      <div class="modal__body">
+
+        <div class="bodymodal">
+          <strong class="sc-hEsumM text" style="font-size: 15px;">Basic information</strong>
+
+
+
+          <div class="sc-bxivhb sc-tilXH jdenrG">
+            <div class="sc-bxivhb lpeNEz">
+              <div class="sc-bxivhb sc-cMljjf eRQXPI"><label for="name" class="sc-cvbbAY eZIKiR">Room name</label>
+                <div class="sc-bxivhb gLWEzJ">
+                  <div style="position: relative;" class="sc-bxivhb eQsgCV"><input id="text-input" name="name"
+                      type="text" class="room-input-name sc-brqgnP kMfnWn" value="Room 4"></div>
+                </div>
+              </div>
+              <div class="sc-bxivhb sc-cMljjf eRQXPI"><label for="type" class="sc-cvbbAY eZIKiR">Type</label>
+                <div class="sc-bxivhb gLWEzJ">
+                  <div class="room-input-select-type css-2b097c-container">
+                    <div class=" css-gj1qp8-control">
+                      <div class=" css-bdvd70">
+                        <div class=" css-1uccc91-singleValue">
+                          <div style="font-weight: 500;" class="sc-bxivhb iVSKTp"><img alt=""
+                              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADQAAAA0CAYAAADFeBvrAAADFElEQVRoge2aO2gUQRyHv7kz8cGZ4DON4hML0wgKWpk12AgqYredoIKVYGtEMBaWFpImhQhKVnwWKbQRlghaaREfiRLFSjAmIgRjlItrMRdyWWd2Z3fnHup+sMXNa3+/3Xn+9yAnJyenCqFMHeiKqrMJOALsAYpAYFlPEXgO3A5cfzSysPhTflJDe4FbQEcCkWn5AhwLXH9QV0BlqJDgBluAu9THDMBK4IbwnM4klZIYOgmsTiQpO23A+SQVFhmWW44cM1FMAveB75g9qFmgBThK9Ft3hOdsDlz/vYlQU0NtwJqI/BngLNBv2F41D4ABoKTJXwusA4wMmXa5APgVkf8OuGbYVphB4FlMmRbTxpKMoajp+WflSst0TH7Uw1xAEkNx7Zh2XxVFSzqsGWoabBlakrH+YisqMO8m4fETIGedGWApMKook4QxYCswhRwvrZXfuvtrMTVUQK7c08A55HrzDbmWFJETwqzpTRWcAXqAMlJ8ATldnwZOINdBI0wNtQNvgIuAn0CoKVOVC4DA9QEmgFPCc4aAr6YNmW5OO5BvaCSRzJRUDMWi2pyavqFPlavpyaftZsekyxWB3cAG5AOweUJVIjyn+mcB+AGMBK7/Mq5unKEdwAVgP7AspT5bjAvPuQn0Bq4/qSsU1eU6gTvAYRpvBubXpevCc1boCukMCeAS8tjdbBxALu5KdIa6gEM1kWOH48JztqsydIYO1lCMDdqBfaoMnaFdtdNijY2qRJ2hrMeBeqDUrjNUrqEQWyiP5f/cTiE31Ozkhpqd/8bQqrqqSIcycKI7PtwDtiE3qUHlKiHjCo1gHBlxmtMbAE9VBXWGHgLDyIOVQMbJxogPqlshHCQRntMNrGc++lMCXqjq6gxdBnaG0vqokyEFPUB3KO0K8ny0AN0YUm0rhjOKysJjRZoysKkzFP408hl4kkVRRnxk969Gud/UGQoHQj4ArzJJysYo8DGUpgzW6AyFz+xDugbqxATwNpSm/ISpmxT6kX+wmHutV+3oSkfg+mXhOX3Aa+TYaQUeNVJTTk7OX8Jvc1aTM33aGs4AAAAASUVORK5CYII="
+                              width="20.4" height="20.4">
+                            <div style="margin-left: 8.5px; margin-top: 3px;">Room</div>
+                          </div>
+                        </div><input id="react-select-59-input" readonly="" tabindex="0" class="css-62g3xt-dummyInput"
+                          value="">
+                      </div>
+                      <div class=" css-1wy0on6"><span class=" css-1hyfx7x"></span>
+                        <div aria-hidden="true" class=" css-b4g0mn"><svg stroke="currentColor" fill="currentColor"
+                            stroke-width="0" viewBox="0 0 24 24" size="20.4" height="20.4" width="20.4"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7 10l5 5 5-5z"></path>
+                          </svg></div>
+                      </div>
+                    </div><input name="type" type="hidden" value="1">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="sc-bxivhb sc-cMljjf dAbKeC"><label for="description" class="sc-cvbbAY eZIKiR">Room
+                description</label>
+              <div class="sc-bxivhb gLWEzJ">
+                <div style="height: auto; width: 400px;" class="sc-bxivhb lffwST"><textarea name="description"
+                    style="resize: none;"
+                    class="sc-csuQGl room-input-description sc-Rmtcm nPadz">Room description</textarea>
+                  <div class="sc-bxivhb flecnZ"><small class="sc-RefOD kRZySQ">16 / 500</small></div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top: 0px;" class="sc-bxivhb sc-cMljjf dAbKeC"><label for="additionalEquipment"
+                class="sc-cvbbAY eZIKiR">Additional equipment</label>
+              <div class="sc-bxivhb gLWEzJ">
+                <div style="height: auto;width: 400px;" class="sc-bxivhb lffwST"><textarea name="additionalEquipment"
+                    style="resize: none;" class="sc-csuQGl room-input-description sc-Rmtcm nPadz"></textarea>
+                  <div class="sc-bxivhb flecnZ"><small class="sc-RefOD kRZySQ">0 / 500</small></div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top: 0px;" class="sc-bxivhb sc-cMljjf dAbKeC"><label for="size"
+                class="sc-cvbbAY eZIKiR">Room size</label>
+              <div class="sc-bxivhb gLWEzJ">
+                <div style="min-height: 32.3px; position: relative; width: 400px;" class="sc-bxivhb sc-btzYZH jOgENp">
+                  <input name="size" type="number" class="sc-brqgnP sc-jwKygS elBaXx" value="">
+                  <div
+                    style="color: rgb(150, 150, 150); display: none; font-size: 11.05px; position: absolute; right: 10px;">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top: 4.25px;width: 400px;" class="sc-bxivhb lffwST"><strong
+                style="margin-bottom: 12.75px; margin-top: 15px; font-size: 13.6px;" class="sc-hEsumM eXhjMh">Widget -
+                Share in offer</strong>
+              <div class="sc-bxivhb sc-tilXH dtBnGX">
+                <div class="sc-bxivhb sc-cMljjf dAbKeC">
+                  <div class="sc-bxivhb gLWEzJ" style="width: 400px; margin-top: 20PX;">
+                    <div class="room-input-select-position css-2b097c-container">
+                      <div class=" css-gj1qp8-control">
+                        <div class=" css-bdvd70">
+                          <div class=" css-1uccc91-singleValue">
+                            <div style="font-weight: 500;" class="sc-bxivhb iVSKTp">
+                              <div>Yes</div>
+                            </div>
+                          </div><input style="border: none;" id="react-select-60-input" readonly="" tabindex="0"
+                            class="css-62g3xt-dummyInput" value="">
+                        </div>
+                        <div class=" css-1wy0on6"><span class=" css-1hyfx7x"></span>
+                          <div aria-hidden="true" class=" css-b4g0mn"><svg stroke="currentColor" fill="currentColor"
+                              stroke-width="0" viewBox="0 0 24 24" size="20.4" height="20.4" width="20.4"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path d="M7 10l5 5 5-5z"></path>
+                            </svg></div>
+                        </div>
+                      </div><input name="widget" type="hidden" value="1">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top: 4.25px; width: 400px;" class="sc-bxivhb lffwST"><strong
+                style="margin-bottom: 12.75px; font-size: 13.6px;" class="sc-hEsumM eXhjMh">Widget - offer
+                distinguishing feature</strong>
+              <div class="sc-bxivhb sc-tilXH dtBnGX">
+                <div class="sc-bxivhb sc-cMljjf dAbKeC">
+                  <div class="sc-bxivhb gLWEzJ" style="width: 400px; margin-top: 20PX;">
+                    <div style="position: relative;" class="sc-bxivhb jKbUhA"><input id="text-input" name="title"
+                        type="text" maxlength="64" class="room-input-name sc-brqgnP kMfnWn" value="">
+                      <div class="sc-bxivhb flecnZ"><small class="sc-RefOD kRZySQ">0 / 64</small></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="bodymodal" style="overflow-x: hidden;">
+          <strong class="sc-hEsumM text" style="font-size: 15px;">Persons</strong>
+
+
+
+
+
+
+
+
+          <div class="sc-bxivhb lffwST" style="padding-right: 17px; width: 100%;">
+            <div style="margin-top: 4.25px; width: 100%;" class="sc-bxivhb lffwST">
+              <div class="sc-bxivhb sc-tilXH dtBnGX">
+                <div style="width: 100%;" class="sc-bxivhb flpuXm">
+                  <div style="margin-right: 4.25px;" class="sc-bxivhb sc-cMljjf egDFpl"><label for="roomSize"
+                      class="sc-cvbbAY eZIKiR">Number of guests</label>
+                    <div class="sc-bxivhb gLWEzJ">
+                      <div style="min-height: 32.3px; position: relative;" class="sc-bxivhb sc-btzYZH hiRfYZ"><a
+                          class="sc-kafWEX sc-feJyhm room-input-room_size-button-decrese sc-iELTvK bfjoVk"><svg
+                            stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                          </svg></a><input name="roomSize" type="number" min="1"
+                          class="sc-brqgnP room-input-room_size sc-jwKygS bgIjin" value="2">
+                        <div
+                          style="color: rgb(150, 150, 150); display: none; font-size: 11.05px; position: absolute; right: 10px;">
+                        </div><a class="sc-kafWEX sc-feJyhm room-input-room_size-button-increse sc-cmTdod iVGoxb"><svg
+                            stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                          </svg></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="margin-left: 4.25px;" class="sc-bxivhb sc-cMljjf egDFpl"><label for="additionalBeds"
+                      class="sc-cvbbAY eZIKiR">Additional bed(s)</label>
+                    <div class="sc-bxivhb gLWEzJ">
+                      <div style="min-height: 32.3px; position: relative;" class="sc-bxivhb sc-btzYZH hiRfYZ"><a
+                          class="sc-kafWEX sc-feJyhm room-input-additional_beds-button-decrese sc-iELTvK bfjoVk"><svg
+                            stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                          </svg></a><input name="additionalBeds" type="number"
+                          class="sc-brqgnP room-input-additional_beds sc-jwKygS bgIjin" value="0">
+                        <div
+                          style="color: rgb(150, 150, 150); display: none; font-size: 11.05px; position: absolute; right: 10px;">
+                        </div><a
+                          class="sc-kafWEX sc-feJyhm room-input-additional_beds-button-increse sc-cmTdod iVGoxb"><svg
+                            stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                          </svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div style="margin-top: 4.25px; width: 100%;" class="sc-bxivhb lffwST"><strong style="font-size: 13.6px;"
+                class="sc-hEsumM eXhjMh">Number of beds</strong>
+              <div class="sc-bxivhb sc-tilXH dtBnGX">
+                <div style="width: 100%;" class="sc-bxivhb flpuXm">
+                  <div style="margin-right: 4.25px;" class="sc-bxivhb sc-cMljjf egDFpl"><label for="singleBed"
+                      class="sc-cvbbAY eZIKiR">Number of single beds</label>
+                    <div class="sc-bxivhb gLWEzJ">
+                      <div style="min-height: 32.3px; position: relative;" class="sc-bxivhb sc-btzYZH hiRfYZ"><a
+                          class="sc-kafWEX sc-feJyhm room-input-single_bed-button-decrese sc-iELTvK bfjoVk"><svg
+                            stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                          </svg></a><input name="singleBed" type="number"
+                          class="sc-brqgnP room-input-single_bed sc-jwKygS bgIjin" value="2">
+                        <div
+                          style="color: rgb(150, 150, 150); display: none; font-size: 11.05px; position: absolute; right: 10px;">
+                        </div><a class="sc-kafWEX sc-feJyhm room-input-single_bed-button-increse sc-cmTdod iVGoxb"><svg
+                            stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                          </svg></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div style="margin-left: 4.25px;" class="sc-bxivhb sc-cMljjf egDFpl"><label for="doubleBed"
+                      class="sc-cvbbAY eZIKiR">Number of twin beds</label>
+                    <div class="sc-bxivhb gLWEzJ">
+                      <div style="min-height: 32.3px; position: relative;" class="sc-bxivhb sc-btzYZH hiRfYZ"><a
+                          class="sc-kafWEX sc-feJyhm room-input-double_bed-button-decrese sc-iELTvK bfjoVk"><svg
+                            stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                          </svg></a><input name="doubleBed" type="number"
+                          class="sc-brqgnP room-input-double_bed sc-jwKygS bgIjin" value="0">
+                        <div
+                          style="color: rgb(150, 150, 150); display: none; font-size: 11.05px; position: absolute; right: 10px;">
+                        </div><a class="sc-kafWEX sc-feJyhm room-input-double_bed-button-increse sc-cmTdod iVGoxb"><svg
+                            stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                            stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line>
+                          </svg></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+
+
+
+
+
+
+
+        </div>
+        <div class="bodymodal">
+          <strong class="sc-hEsumM text" style="font-size: 15px;">Address data</strong>
+
+
+
+          <div class="sc-bxivhb sc-tilXH jdenrG">
+            <div class="sc-bxivhb sc-cMljjf dAbKeC"><label for="id_country" class="sc-cvbbAY eZIKiR">Country /
+                Region</label>
+              <div class="sc-bxivhb gLWEzJ">
+                <div class=" css-2b097c-container">
+                  <div class=" css-gj1qp8-control">
+                    <div class=" css-bdvd70">
+                      <div class=" css-1uccc91-singleValue">
+                        <div style="font-weight: 500;" class="sc-bxivhb iVSKTp"><img class="sc-bYSBpT wNtFB"
+                            src="/static/media/pl.607e4f68.svg" style="margin: 0px;">
+                          <div style="margin-left: 8.5px; margin-top: 3px;width: 350px;">Poland</div>
+                        </div>
+                      </div>
+                      <div class="css-muqt0h">
+                        <div class="" style="display: inline-block;"><input autocapitalize="none" autocomplete="off"
+                            autocorrect="off" id="react-select-30-input" spellcheck="false" tabindex="0" type="text"
+                            aria-autocomplete="list"
+                            style="box-sizing: content-box; width: 2px; background: rgba(0, 0, 0, 0) none repeat scroll 0px center; border: 0px none; font-size: inherit; opacity: 1; outline: currentcolor none 0px; padding: 0px; color: inherit;"
+                            value="">
+                          <div
+                            style="position: absolute; top: 0px; left: 0px; visibility: hidden; height: 0px; overflow: scroll; white-space: pre; font-size: 11.05px;font-weight: 400; font-style: normal; letter-spacing: normal; text-transform: none; font-family: Montserrat, sans-serif; ">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class=" css-1wy0on6"><span class=" css-1hyfx7x"></span>
+                      <div aria-hidden="true" class=" css-b4g0mn"><svg stroke="currentColor" fill="currentColor"
+                          stroke-width="0" viewBox="0 0 24 24" size="20.4" height="20.4" width="20.4"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M7 10l5 5 5-5z"></path>
+                        </svg></div>
+                    </div>
+                  </div><input name="id_country" type="hidden" value="1">
+                </div>
+              </div>
+            </div>
+            <div class="sc-bxivhb sc-cMljjf dAbKeC"><label for="street" class="sc-cvbbAY eZIKiR">Street</label>
+              <div class="sc-bxivhb gLWEzJ">
+                <div style="position: relative; width: 400px;" class="sc-bxivhb eQsgCV"><input id="text-input" name="street"
+                    type="text" class="sc-brqgnP kMfnWn" value="Enter your address"></div>
+              </div>
+            </div>
+            <div class="sc-bxivhb sc-cMljjf dAbKeC"><label for="post_code" class="sc-cvbbAY eZIKiR">Post Code</label>
+              <div class="sc-bxivhb gLWEzJ">
+                <div style="position: relative;width: 400px;" class="sc-bxivhb eQsgCV"><input id="text-input" name="post_code"
+                    type="text" class="sc-brqgnP kMfnWn" value=""></div>
+              </div>
+            </div>
+            <div class="sc-bxivhb sc-cMljjf dAbKeC"><label for="city" class="sc-cvbbAY eZIKiR">City</label>
+              <div class="sc-bxivhb gLWEzJ">
+                <div style="position: relative;width: 400px;" class="sc-bxivhb eQsgCV"><input id="text-input" name="city" type="text"
+                    class="sc-brqgnP kMfnWn" value="Enter your town/city"></div>
+              </div>
+            </div>
+            <div style="margin-top: 4.25px; width: 100%;" class="sc-bxivhb lffwST"><strong style="font-size: 13.6px;width: 400px;"
+                class="sc-hEsumM eXhjMh">Google Maps</strong>
+              <div class="sc-bxivhb sc-tilXH jdenrG">
+                <div style="margin-top: 12.75px;" class="sc-bxivhb cnQnkY">
+                  <div class="sc-bxivhb sc-cMljjf egDFpl">
+                    <div class="sc-bxivhb gLWEzJ">
+                      <div style="position: relative;" class="sc-bxivhb eQsgCV"><input id="text-input"
+                          name="googleMapGeocoding" type="text" class="room-input-name sc-brqgnP bvRiHA" readonly=""
+                          value=""></div>
+                    </div>
+                  </div><a disabled="" style="margin-left: 10px; margin-top: 0px; max-height: 36px;"
+                    class="sc-bZQynM sc-gzVnrw dDClpF"><svg stroke="currentColor" fill="none" stroke-width="2"
+                      viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg> Location</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

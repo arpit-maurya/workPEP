@@ -1,0 +1,95 @@
+*:focus {
+    outline: none;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-image: url('registerbg.jpg') !important;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  flex-wrap: wrap !important;
+  align-content: flex-start !important;
+}
+
+.signinbox{
+    background: #fff;
+    width: 100%;
+    max-width: 530px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;}
+
+.hr{
+    position: relative;
+    left: 0;
+    width: 100% !important;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 530px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+
+}
+
+input:focus {
+    border: 1px solid #3F8736 !important;
+    box-shadow: none !important;
+  }
+
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  padding-left: 20px;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  padding-left: 20px;
+
+}
+
+input{
+  text-align: center !important;
+}
+
+button:focus{
+    border: 2px solid #3F8736 !important;
+}
+
+.forgotpass{
+    background-color: transparent !important;
+    color: rgb(68, 68, 68) !important;
+    font-weight: 600 !important;
+    border: none !important;
+}
+
+.forgotpass:hover{
+    background-color: rgba(170, 167, 167, 0.459) !important;
+}
+
+.forgotpass:focus{
+    border: none !important;
+    box-shadow: none !important;
+}

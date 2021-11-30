@@ -1,0 +1,95 @@
+.addReservation{
+ height: 60%;
+ width: 8rem;
+ margin-right:1rem ;
+ display: flex;
+ color: white;
+ font-weight: 600;
+ justify-content: center;
+ align-items: center;
+ border-radius: 2px;
+ background-color: #00a541;
+ font-size: 12px;
+}
+.addReservation:hover{
+ background-color: #007e30;
+}
+
+.formBody{
+ position: absolute;
+ height: 100%;
+ width: 100%;
+ z-index: 1;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: rgba(0, 0, 0, 0.466);
+}
+
+.bodyModal_container{
+ height: 100%;
+ width: 100%;
+}
+
+.addInvoiceBtn{
+    height: 20px;
+    width: 50px;
+   
+}
+
+.divInvoice{
+    height: 10%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.addBtn{
+ margin-right: 0.5rem;
+ font-weight: 500;
+ font-size:18px;
+ background-color: red;
+ height: 50%;
+ color: rgb(255, 255, 255);
+ width: 6%;
+ display: flex;
+ justify-content: center;
+ align-content: center;
+ border-radius:5px;
+ 
+}
+
+
+.contentDivInvoice{
+
+ height: 100%;
+ width: 100%;
+
+}
+.inner-contentDivInvoice{
+height: 8%;
+width: 100%;
+
+ display: flex;
+}
+.contentDiv-inner{
+ height: 100%;
+ width: 50%;
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ font-size: 12px;
+ font-weight: 500;
+}
+
+
+.box-2{
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ margin-right: 10px;
+}
+

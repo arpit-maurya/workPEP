@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+ box-sizing: border-box;
+ font-family: 'Montserrat', sans-serif;
+ margin: 0;
+}
+
+body{
+ height: 100vh;
+ width: 100vw;
+ padding: 0;
+ margin: 0;
+ display: flex;
+ overflow: auto;
+}
+
+.sidebar{
+ /* position: absolute; */
+ height: 100% !important;
+ width: 45px !important;
+ background-color: white;
+ cursor: pointer;
+ transition: all 0.4s ease;
+display: inline-block;
+/* border: 1px solid rgba(104, 104, 104, 0.288); */
+box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 20px 0px;
+
+}
+
+.sidebar.active{
+ width: 241px !important;
+}
+
+
+.sidebar .logo-details{ 
+ padding: 0em 1em 0em 0.8em;
+transition: all 0.3s ease;
+}
+.sidebar .logo-details .logo_name{ 
+ width: 100%;
+ pointer-events: none;
+ transition: all 0.3s ease;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.sidebar.active .logo-details .logo_name{ 
+ width: 100%;
+ pointer-events: none;
+ transition: all 0.3s ease;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.sidebar .logo-details .logo_name img{ 
+   pointer-events: none;
+   height: 16px; 
+}
+.sidebar.active .logo-details .logo_name img{
+ pointer-events: none;
+   height: 100%; 
+}
+
+.sidebar .logo-details:hover{
+background-color: rgba(225, 225, 225,0.8);
+ }
+
+.sidebar ul{
+ padding: 0;
+ /* border: 2px solid red; */
+}
+.sidebar ul li{
+ display: flex;
+flex-flow: row nowrap;
+-moz-box-pack: start;
+place-content: stretch flex-start;
+-moz-box-align: center;
+align-items: center;
+font-weight: 500;
+min-height: 36px;
+width: 100%;
+transition: all 0.3s ease-in-out 0s;
+transform: translateZ(0px);
+border: 0px none;
+max-height: 36px;
+overflow: hidden;
+list-style: none;
+padding: 0em 1em 0em 0.8em;
+}
+.sidebar .links_name{
+opacity: 0 ;
+pointer-events: none;
+}
+.sidebar.active .links_name{
+opacity: 1 ;
+pointer-events: auto;
+transition:all 0.3s ease-in-out 0s;
+}
+.sidebar ul li:hover{
+background-color: #ebedef;
+}
+.sidebar ul li a{
+ color: rgb(39, 39, 40);
+ text-decoration: none;
+ display: flex;
+ align-items: center;
+ font-size: 0.7em;
+  color: rgb(39, 39, 40);
+ text-decoration: none;
+ display: flex;
+ align-items: center;
+ transition: all 0.3s ease;
+ /* border: 2px solid red; */
+ white-space: nowrap;
+ width: 100%;
+}
+.priceList-Div .links_name{
+ /* border: 2px solid red; */
+ margin-left: 12px;
+}
+
+
+.sidebar ul li span{
+ display: flex;
+flex-flow: row nowrap;
+-moz-box-pack: start;
+place-content: stretch flex-start;
+width: 100%;
+outline: currentcolor none medium;
+height: 48px;
+line-height: 48px;
+font-size: 12.8px;
+cursor: pointer;
+transition: all 0.3s ease-in-out 0s;
+transform: translateZ(0px);
+border: 0px none;
+background: rgba(0, 0, 0, 0) none repeat scroll 0px 0px;
+color: rgb(62, 62, 62);
+padding-left: 8px;
+}
+
+
+ .home-section{
+  background:#ebedef;
+  width: 100vw;
+  height: 100vh;
+  transition: all 0.4s ease;
+} 
+
+.saveAndMoveOn{
+  display: flex !important;
+  justify-content: flex-end !important;
+}
+
+.content-Area{
+  
+  height: 100%;
+  width:  100%;
+  overflow: auto;
+}
+.header-container{
+  height: 2.8rem;
+  width: 100%;
+  /* border: 2px solid; */
+  background-color: #00a541;
+  display: flex;
+}
+
+.main-content-area{
+  height: calc(100% - 2.8rem);
+  width: 100%;
+}
+
+.hambergerBox{
+  height: 100%;
+  width: 2.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+  color:white;
+}
+
+.refreshBox,.searchBox,.homeBox{
+  height: 100%;
+  width: 2.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:white;
+  transition: all 0.4s ease;
+}
+.refreshBox:hover,.hambergerBox:hover,.searchBox:hover,.homeBox:hover{
+  background-color: #008a36;
+}

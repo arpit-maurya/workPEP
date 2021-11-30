@@ -1,0 +1,45 @@
+.addReservation-Bottom-area{
+ position:absolute;
+ bottom: 0;
+ height: 6.8%;
+ width:100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.addReservation-main-container{
+ height: 100%;
+ width: 97%;
+ box-shadow: rgba(0, 0, 0, 0.15) 0px -1px 6px 0px;
+ background-color: white;
+ display: flex;
+ align-items: center;
+}
+
+.calenderBottomBox{
+ height: 70%;
+ width: 20%;
+ /* border: 1px solid red; */
+ margin-left: 0.5rem;
+ display: flex;
+
+ align-items: center;
+}
+
+.addRoomBox{
+ height: 85%;
+ width: 30%;
+ border: 1px solid rgb(142, 142, 142);
+ font-size: 0.8rem;
+ font-weight: 600;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 7px;
+}
+.addRoomBox:hover{
+ background-color: rgba(193, 193, 193, 0.34);
+ border: 1px solid  rgba(255, 0, 0, 0.68);
+ color: rgba(255, 0, 0, 0.653);
+}
